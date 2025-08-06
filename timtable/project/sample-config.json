@@ -1,0 +1,93 @@
+{
+  "settings": {
+    "sections": ["A", "B", "C"],
+    "classHoursPerDay": 7,
+    "hourDuration": 50,
+    "startTime": "08:00",
+    "endTime": "15:00"
+  },
+  "faculty": [
+    {
+      "id": "1",
+      "name": "Dr. Smith",
+      "subject": "Mathematics",
+      "type": "Regular",
+      "maxLecturesPerDay": 3,
+      "maxLecturesPerWeek": 15
+    },
+    {
+      "id": "2",
+      "name": "Prof. Johnson",
+      "subject": "Physics",
+      "type": "Lab",
+      "maxLecturesPerDay": 2,
+      "maxLecturesPerWeek": 10
+    },
+    {
+      "id": "3",
+      "name": "Ms. Davis",
+      "subject": "English",
+      "type": "Regular",
+      "maxLecturesPerDay": 4,
+      "maxLecturesPerWeek": 20
+    },
+    {
+      "id": "4",
+      "name": "Dr. Wilson",
+      "subject": "Chemistry",
+      "type": "Lab",
+      "maxLecturesPerDay": 2,
+      "maxLecturesPerWeek": 12
+    },
+    {
+      "id": "5",
+      "name": "Mr. Brown",
+      "subject": "Computer Science",
+      "type": "Regular",
+      "maxLecturesPerDay": 3,
+      "maxLecturesPerWeek": 18
+    },
+    {
+      "id": "6",
+      "name": "Mrs. Garcia",
+      "subject": "Biology",
+      "type": "Lab",
+      "maxLecturesPerDay": 2,
+      "maxLecturesPerWeek": 10
+    },
+    {
+      "id": "7",
+      "name": "Prof. Lee",
+      "subject": "History",
+      "type": "Regular",
+      "maxLecturesPerDay": 3,
+      "maxLecturesPerWeek": 15
+    },
+    {
+      "id": "8",
+      "name": "Dr. Martinez",
+      "subject": "Economics",
+      "type": "Regular",
+      "maxLecturesPerDay": 3,
+      "maxLecturesPerWeek": 15
+    }
+  ],
+  "constraints": {
+    "morningBreak": {
+      "start": "09:40",
+      "end": "10:00"
+    },
+    "lunch": {
+      "start": "12:30",
+      "end": "13:20"
+    },
+    "weeklyTest": {
+      "day": "Wednesday",
+      "lastTwoPeriods": true
+    },
+    "rotatingActivities": {
+      "activities": ["Library", "Sports", "Addon", "Counselling"],
+      "lastPeriodOnly": true
+    }
+  }
+} 
